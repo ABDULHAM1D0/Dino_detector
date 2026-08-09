@@ -107,5 +107,5 @@ for u in ['aphid', 'whitefly']:
         logits=logits,
         phrases=phrases
     )
-
+    #plot_image
     sv.plot_image(annotated_frame, (16, 16))
