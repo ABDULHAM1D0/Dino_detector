@@ -26,7 +26,7 @@ print("GroundingDINO imported successfully!")
 
 CONFIG_PATH = "GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py"
 print(CONFIG_PATH, "; exist:", os.path.isfile(CONFIG_PATH))
-
+#installing grounding Dino
 !wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
 
 WEIGHTS_PATH = "groundingdino_swint_ogc.pth"
