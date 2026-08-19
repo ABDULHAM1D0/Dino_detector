@@ -33,7 +33,7 @@ WEIGHTS_PATH = "groundingdino_swint_ogc.pth"
 print(WEIGHTS_PATH, "; exist:", os.path.isfile(WEIGHTS_PATH))
 
 from groundingdino.util.inference import load_model, load_image, predict, annotate
-
+#LOADING MODEL
 model = load_model(CONFIG_PATH, WEIGHTS_PATH)
 
 import torch
